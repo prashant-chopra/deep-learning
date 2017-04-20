@@ -7,7 +7,6 @@ We will be using following as our development environment:
 - Pycharm 2017.1
 
 ## Installing Python
-## -----------------
 1) Download Anaconda python from
    https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.pkg
 
@@ -18,7 +17,8 @@ We will be using following as our development environment:
 2) Install using above downloaded package
 
 ## Installing Tensorflow (CPU only)
-## --------------------------------
+http://www.tensorflow.org
+
 1) Create a conda environment named tensorflow by invoking the following command:
 
    $ conda create -n tensorflow python=3.5
@@ -38,7 +38,6 @@ We will be using following as our development environment:
    https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 
 ## Installing Spark
-## ----------------
 
 NOTE : Spark requires python and java be installed already
 
@@ -58,7 +57,7 @@ NOTE : Spark requires python and java be installed already
    export SPARK_HOME=/usr/local/spark
    export PATH=$PATH:$SPARK_HOME/bin
 
-##_____________________________________________________________________________
+## Integrating pyspark with Pycharm
 
 Now that we have everything installing we will set up Pycharm with Pyspark
 
@@ -76,6 +75,4 @@ Now that we have everything installing we will set up Pycharm with Pyspark
    /usr/local/spark/python
    /usr/local/spark/python/lib/py4j-0.10.4-src.zip
 
-##_____________________________________________________________________________
-
-THIS BRINGS US TO THE END OF SETTING UP THE ENVIRONMENT !!
+## END !!
